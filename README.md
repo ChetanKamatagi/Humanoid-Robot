@@ -1,5 +1,9 @@
 # 🤖 Maya 3.0 Humanoid Robot Project
 
+<div style="text-align: center">
+  <img src="https://github.com/ChetanKamatagi/Humanoid-Robot/blob/main/Team%20Photo" alt="Team Photo" width="500" />
+</div>
+
 Welcome to the repository of our innovative **Maya 3.0 Humanoid Robot Project**. This project is an advanced continuation of our Autonomous Mobile Robot (AMR) project, integrating sophisticated features to create a versatile humanoid robot.
 
 ## 🌟 Project Overview
