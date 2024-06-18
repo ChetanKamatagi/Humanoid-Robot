@@ -79,7 +79,7 @@ Check out our [YouTube video](https://www.youtube.com/watch?v=97EMlYxOZNI) showc
 
 ## 📚 Documentation
 
-Detailed documentation for setting up and running the Maya 3.0 humanoid robot project can be found in the [Documentation](Detailed_report.pdf) section.
+Detailed documentation for setting up and running the Maya 3.0 humanoid robot project can be found in the [Documentation](Detailed_Report.pdf) section.
 
 ## 🤝 Acknowledgements
 
