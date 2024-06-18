@@ -62,15 +62,24 @@ Our humanoid robot, Maya 3.0, builds upon the AMR foundation, adding an upper to
 - **ChatGPT**: NLP integration for interactive communication.
 
 
-## 📷 Gallery
+## 📷 Gallery# Humanoid Robot
 
-![Humanoid Design](path_to_your_image_1.jpg)
-![Simulation Environment](path_to_your_image_2.jpg)
-![Real-World Testing](path_to_your_image_3.jpg)
+## Design Images
+
+<div style="text-align: center;">
+  <img src="https://github.com/ChetanKamatagi/Humanoid-Robot/blob/main/Design%20of%20MAYA.png" alt="Humanoid Design" width="500" height = "600"/>
+  <img src="https://github.com/ChetanKamatagi/Humanoid-Robot/blob/main/Design%20of%20MAYA%202.png" alt="Humanoid Design 2" width="500" height = "500"/>
+</div>
+
+
+## 🎥 Concept Video
+
+Check out our [YouTube video](https://www.youtube.com/watch?v=97EMlYxOZNI) showcasing Maya 3.0 serving as a nursing robot, assisting patients and providing care as part of our vision for robotic healthcare solutions.
+
 
 ## 📚 Documentation
 
-Detailed documentation for setting up and running the Maya 3.0 humanoid robot project can be found in the [Documentation](docs/documentation.md) section.
+Detailed documentation for setting up and running the Maya 3.0 humanoid robot project can be found in the [Documentation](Detailed_report.pdf) section.
 
 ## 🤝 Acknowledgements
 
