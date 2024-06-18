@@ -62,15 +62,20 @@ Our humanoid robot, Maya 3.0, builds upon the AMR foundation, adding an upper to
 - **ChatGPT**: NLP integration for interactive communication.
 
 
-## 📷 Gallery# Humanoid Robot
+## 📷 Gallery
 
-## Design Images
+### Design Images
 
 <div style="text-align: center;">
   <img src="https://github.com/ChetanKamatagi/Humanoid-Robot/blob/main/Design%20of%20MAYA.png" alt="Humanoid Design" width="500" height = "600"/>
   <img src="https://github.com/ChetanKamatagi/Humanoid-Robot/blob/main/Design%20of%20MAYA%202.png" alt="Humanoid Design 2" width="500" height = "500"/>
 </div>
 
+
+## MAYA in Motion: YouTube Video Gallery
+
+Explore our full playlist of videos:
+[Link to YouTube Playlist](https://www.youtube.com/playlist?list=PLeK5bZUD6DaQ4cjS5HvWraS2Y5s2-53HB)
 
 ## 🎥 Concept Video
 
