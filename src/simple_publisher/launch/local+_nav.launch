@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="simple_publisher" name="ll" type="ll.py" />
+  <node pkg="simple_publisher" name="pub_cmd_goal" type="pub_cmd_goal.py" />
+  <!-- <node pkg="beginner_tutorials" name="accel" type="accel.py" />  -->
+</launch>

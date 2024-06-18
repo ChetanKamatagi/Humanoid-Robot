@@ -1,0 +1,8 @@
+prefix=/home/irp2023/base_ws/install
+
+Name: ros_serial
+Description: Description of ros_serial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

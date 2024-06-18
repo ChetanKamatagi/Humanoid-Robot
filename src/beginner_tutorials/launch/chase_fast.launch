@@ -1,0 +1,32 @@
+<launch>
+  <node
+    pkg="turtlesim"
+    type="turtlesim_node"
+    name="turtlesim_node" 
+    output="screen"
+  />
+  <node
+    pkg="beginner_tutorials"
+    type="accel.py"
+    name="accel"
+    output="screen"
+  />
+  <node
+    pkg="beginner_tutorials"
+    type="chase_spawn_f.py"
+    name="chase_spawn_f"
+    output="screen"
+  />
+  <node
+    pkg="beginner_tutorials"
+    type="chase_f.py"
+    name="chase_f"
+    output="screen"
+  />
+  <node
+    pkg="beginner_tutorials"
+    type="pose.py"
+    name="pose"
+    output="screen"
+  />
+</launch> 

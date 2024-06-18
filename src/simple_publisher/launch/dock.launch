@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="simple_publisher" name="docker" type="docking.py" />
+
+</launch>
