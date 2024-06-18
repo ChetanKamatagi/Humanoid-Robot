@@ -1,0 +1,5 @@
+<launch>
+
+  <node pkg="simple_publisher" name="person" type="recive_vel.py" />
+  
+</launch>

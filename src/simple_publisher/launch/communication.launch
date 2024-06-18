@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="simple_publisher" name="recive_commands" type="recive_commands.py" />
+  <node pkg="simple_publisher" name="base_master" type="base_master.py" />
+  <!-- <node pkg="simple_publisher" name="upper_master" type="upper_master.py" /> -->
+  <node pkg="simple_publisher" name="triger" type="triger.py" />
+  <include file="$(find simple_publisher)/launch/nav.launch"/>
+
+
+</launch>

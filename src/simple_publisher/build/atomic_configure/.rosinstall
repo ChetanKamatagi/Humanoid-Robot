@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/irp2023/base_ws/src/simple_publisher/build/devel/setup.sh

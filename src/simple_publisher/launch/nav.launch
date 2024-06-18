@@ -1,0 +1,47 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="model" />
+  <arg name="map_file" default="$(find simple_publisher)/maps/map.yaml"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="move_forward_only" default="true"/>
+  <arg name="node_start_delay" default="3.0" />  
+  <include file="$(find test)/launch/display.launch"/>
+  <include file="$(find rplidar_ros)/launch/rplidar_a2m12.launch"/>
+  <include file="$(find simple_publisher)/launch/odom_pub_all.launch"/>
+  
+  <param
+        name="robot_description"
+        textfile="$(find test)/urdf/AMR_2324_Actual.urdf" />
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+  <!--
+  <node pkg="simple_publisher" name="ll" type="ll.py" />
+  <node pkg="simple_publisher" name="pub_cmd_goal" type="pub_cmd_goal.py" />
+    -->
+  <node pkg="simple_publisher" name="set_ini_pos" type="set_ini_pos.py" />
+  <node pkg="simple_publisher" name="simpl" type="upper_master.py" />
+  <node pkg="beginner_tutorials" name="accel" type="accel.py" />
+
+  <!-- AMCL -->
+  <include file="$(find simple_publisher)/launch/amcl.launch"/>
+
+  <!-- move_base -->
+  <include file="$(find simple_publisher)/launch/move_base.launch">
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include>
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node
+        name="rviz"
+        pkg="rviz"
+        type="rviz"
+        args="-d $(find simple_publisher)/rviz/in_map.rviz" />
+  </group>
+  <!-- 
+  <node pkg="simple_publisher" name="amcl_pose" type="amcl_pose.py" /> 
+  -->
+  <node pkg="timed_roslaunch" type="timed_roslaunch.sh" args="2 simple_publisher gmapping.launch" name="timed_roslaunch" output="screen" />
+
+
+</launch>
