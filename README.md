@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Autonomous Mobile Robot (AMR) 
 
 Welcome to the repository of our groundbreaking **Autonomous Mobile Robot (AMR) Project**. This project is a testament to the synergy of advanced technology and innovative engineering, demonstrating the capabilities of autonomous systems in complex environments.
@@ -22,7 +21,7 @@ Our AMR project integrates cutting-edge components and sophisticated software to
 - **Autonomous Navigation**: The AMR autonomously plans routes and avoids obstacles.
 - **Precision Mapping**: High accuracy in environmental mapping and localization.
 - **Simulation to Reality**: Achieved seamless transition from simulated environments to real-world navigation.
-=======
+
 # 🤖 Maya 3.0 Humanoid Robot Project
 
 <div style="text-align: center">
@@ -64,18 +63,17 @@ Our humanoid robot, Maya 3.0, builds upon the AMR foundation, adding an upper to
 - **Tour Guide Capability**: Engages with visitors, providing tours and information.
 - **Versatile Movement**: 5 DOF arms with Dynamixel motors and magnetic grippers for object manipulation.
 - **Depth Perception**: 3D cameras for capturing depth information of the environment and individuals.
->>>>>>> 61861ae2a18440483c1cfd5ad10b840d64735325
+
 
 ## 💻 Technical Details
 
 ### Hardware
-<<<<<<< HEAD
+
 - **RPLidar**
 - **High-Resolution Camera**
 - **Stepper Motors**
 - **Jetson Nano**
 - **Arduino**
-=======
 - **RPLidar**: For precise environmental mapping.
 - **High-Resolution Camera**: For vision-based navigation and face tracking.
 - **3D Cameras**: For capturing depth information.
@@ -87,13 +85,13 @@ Our humanoid robot, Maya 3.0, builds upon the AMR foundation, adding an upper to
 - **Magnetic Grippers**: For object manipulation.
 - **Batteries**: Power supply with level indication.
 - **Indicator Lights**: For status indication and aesthetic appeal.
->>>>>>> 61861ae2a18440483c1cfd5ad10b840d64735325
+
 
 ### Software
 - **ROS**: Core operating system for robot control and navigation.
 - **Gazebo & RViz**: Simulation tools for environment testing.
 - **SolidWorks**: Used for 3D modeling of the robot.
-<<<<<<< HEAD
+
 
 ## 📷 Gallery
 
@@ -104,7 +102,7 @@ Our humanoid robot, Maya 3.0, builds upon the AMR foundation, adding an upper to
 ## 📚 Documentation
 
 Detailed documentation for setting up and running the AMR project can be found in the [Documentation](docs/documentation.md) section.
-=======
+
 - **ChatGPT**: NLP integration for interactive communication.
 
 
@@ -131,13 +129,9 @@ Check out our [YouTube video](https://www.youtube.com/watch?v=97EMlYxOZNI) showc
 ## 📚 Documentation
 
 Detailed documentation for setting up and running the Maya 3.0 humanoid robot project can be found in the [Documentation](Detailed_Report.pdf) section.
->>>>>>> 61861ae2a18440483c1cfd5ad10b840d64735325
 
 ## 🤝 Acknowledgements
 
 This project would not have been possible without the unwavering support of numerous individuals and institutions. Special thanks to everyone who contributed to the success of this endeavor.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 61861ae2a18440483c1cfd5ad10b840d64735325
